@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eee5d9"/><stop offset="1" stop-color="#d4bca0"/></linearGradient><linearGradient id="juice" x2="0" y2="1"><stop stop-color="#d5aa73"/><stop offset="1" stop-color="#94704e"/></linearGradient></defs>
+  <rect width="640" height="480" rx="32" fill="url(#bg)"/><path d="M74 287q54-61 122 0-42 87-121 52-29-19-1-52" fill="#f0d15a"/><path d="M88 284l-11-14" stroke="#548449" stroke-width="9"/><circle cx="510" cy="337" r="48" fill="#8c5c36"/><circle cx="510" cy="337" r="34" fill="#c8955a"/><circle cx="501" cy="328" r="6" fill="#71452d"/><circle cx="520" cy="347" r="6" fill="#71452d"/>
+  <rect x="255" y="124" width="130" height="282" rx="34" fill="#fff" opacity=".75"/><path d="M270 195h100v172a24 24 0 0 1-24 24h-52a24 24 0 0 1-24-24z" fill="url(#juice)"/><rect x="286" y="87" width="68" height="49" rx="10" fill="#72573d"/><path d="M278 250h84" stroke="#fff" stroke-width="7" opacity=".7"/><text x="320" y="446" text-anchor="middle" fill="#72573d" font-family="Arial,sans-serif" font-weight="700" font-size="27">PROTEIN POWER</text>
+</svg>

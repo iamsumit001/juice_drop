@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff0da"/><stop offset="1" stop-color="#ffd0a0"/></linearGradient><linearGradient id="juice" x2="0" y2="1"><stop stop-color="#ffc13c"/><stop offset="1" stop-color="#f07824"/></linearGradient></defs>
+  <rect width="640" height="480" rx="32" fill="url(#bg)"/><circle cx="122" cy="337" r="62" fill="#f28b27"/><circle cx="122" cy="337" r="43" fill="#ffd967"/><path d="M122 294v86m-43-43h86m-73-30 60 60m0-60-60 60" stroke="#fff5d6" stroke-width="6"/><circle cx="493" cy="135" r="48" fill="#f49b29"/>
+  <rect x="255" y="124" width="130" height="282" rx="34" fill="#fff" opacity=".75"/><path d="M270 195h100v172a24 24 0 0 1-24 24h-52a24 24 0 0 1-24-24z" fill="url(#juice)"/><rect x="286" y="87" width="68" height="49" rx="10" fill="#43854b"/><path d="M278 250h84" stroke="#fff" stroke-width="7" opacity=".7"/><text x="320" y="446" text-anchor="middle" fill="#9b5e24" font-family="Arial,sans-serif" font-weight="700" font-size="27">ORANGE SUNRISE</text>
+</svg>

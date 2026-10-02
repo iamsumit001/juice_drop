@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: juicedrop-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE
+        value: 7d
+      - key: CLIENT_URL
+        sync: false
+      - key: DELIVERY_PINCODES
+        sync: false
+      - key: DELIVERY_ETA_MINUTES
+        value: 45
+      - key: DELIVERY_SLOTS
+        value: ""
+      - key: JUICE_BOX_SIZE
+        value: 4
