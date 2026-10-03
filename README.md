@@ -294,18 +294,3 @@ All items above were verified by static/syntax analysis of the full codebase and
 
 ---
 
-# 🎤 5-Minute Hackathon Demo Plan
-
-| Time | Segment | What to say / show |
-|---|---|---|
-| 0:00–0:30 | **Problem** | "Fresh, preservative-free juice is hard to get delivered — juice bars have limited hours, and bottled juice from stores is loaded with sugar and preservatives." |
-| 0:30–1:00 | **Solution** | "JuiceDrop is a full MERN juice delivery platform — browse, order, and track fresh juice delivery, with a complete admin backend to run the business." |
-| 1:00–1:30 | **Architecture** | Show the React → Express → MongoDB diagram from §5. Mention JWT auth, Mongoose schemas, and that it's 100% custom MERN — no BaaS shortcuts. |
-| 1:30–3:30 | **Live Demo** | 1) Land on Home, scroll featured juices. 2) Go to Shop, search "mango", filter by category, sort by price. 3) Open a product, pick a size, add to cart. 4) Open Cart, apply `JUICE10`, show totals update live. 5) Checkout as the demo customer, place a COD order — show the toast + "Order Placed 🎉" screen. 6) Go to Orders, show the tracking bar. 7) Log in as admin, show the Dashboard stats, edit a product's stock, then update the order's status to "Out for Delivery." 8) Log back in as the customer and show the tracking bar updated live. |
-| 3:30–4:15 | **Technical Implementation** | Highlight: JWT + bcrypt auth, role-based route protection, centralized input validation, rate-limited auth endpoints, atomic stock decrement on order creation, and localStorage-persisted cart. |
-| 4:15–5:00 | **Future Scalability** | Mention real payment gateway integration, image uploads via Cloudinary, Redis-backed rate limiting, and horizontal scaling of the Express API behind a load balancer since it's stateless (JWT, no server sessions). |
-
-**Presenter tips:**
-- Pre-seed the database and pre-log-in a second browser/incognito tab as admin so you don't waste demo time typing credentials.
-- Add 1–2 items to the cart *before* the demo starts so Cart isn't empty when you jump to it, or narrate the empty-cart state briefly to show polish.
-- Have the admin order-status dropdown and the customer's Orders tab open in two side-by-side windows to show the "MongoDB → API → Customer" update happen live.
